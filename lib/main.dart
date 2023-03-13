@@ -32,7 +32,7 @@ class _HomeState extends State<Home> {
         elevation: 0,
         backgroundColor: Colors.black,
         title: Text(
-          "Telegramm",
+          "Telegram",
           style: TextStyle(
             fontSize: 25,
             fontWeight: FontWeight.bold,
@@ -1036,25 +1036,15 @@ class _HomeState extends State<Home> {
                   backgroundImage: ExactAssetImage("assets/one (2).jpg"),
                   radius: 40,
                 ),
-                title: Padding(
-                  padding: const EdgeInsets.only(right: 10),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        "8-B sinf o`quvchilari ",
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 20),
-                      ),
-                      Text(
-                        "был(а) недавно",
-                        style: TextStyle(
-                          fontWeight: FontWeight.w500,
-                          fontSize: 15,
-                        ),
-                      )
-                    ],
-                  ),
+                title: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      "8-B sinf o`quvchilari ",
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                    ),
+                  ],
                 ),
                 subtitle: Padding(
                   padding: const EdgeInsets.only(right: 50),
